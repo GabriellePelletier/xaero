@@ -4,10 +4,12 @@
 
 :root {
   --fond-noir: #181818;
+  --fond-noir-hover: #173333;
   --fond-gris: #d2d2d2;
   --plus-pale: #efefef;
   --texte-blanc: #f1f1f1;
   --texte-blanc-hover: #8cc9c8;
+  --texte-blanc-hover2: #989898;
   --texte-fonce: #181818;
   --rouge-attirant: #d13232;
   --bleu-brillant: #2ce5eb;
@@ -21,11 +23,6 @@ body {
   padding: 0 3% 0 3%;
 }
 
-h1 {
-  font-family: "Yeseva One", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: clamp(1.875rem, 1.528rem + 1.852vi, 3.75rem);
-
-  margin: 0;
+a {
+  color: var(--texte-blanc);
 }

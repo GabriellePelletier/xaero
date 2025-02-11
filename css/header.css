@@ -4,23 +4,45 @@ header {
   background-color: var(--fond-noir);
   color: var(--texte-blanc);
 
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 
   /* ATTENTION ICI PEUT CHANGER BEAUCOUP LA TAILLE
   selon le root element (rem) */
+  width: 94%;
   height: 5rem;
+  opacity: 0.3;
+
+  transition-duration: 0.5s;
 }
 
-header a {
-  color: var(--texte-blanc);
+header:hover {
+  opacity: 1;
+}
+
+header .logo a {
   text-decoration: none;
 }
 
-header a:hover {
-  color: var(--texte-blanc-hover);
-  text-decoration: underline;
+header .logo a:hover {
+  color: var(--texte-blanc-hover2);
+}
+
+.logo {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(1.875rem, 1.528rem + 1.852vi, 3.75rem);
+
+  margin: 0;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: var(--texte-blanc-hover2);
 }
 
 nav {
@@ -28,6 +50,16 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+nav a {
+  color: var(--texte-blanc);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--texte-blanc-hover);
+  text-decoration: underline;
 }
 
 .plusinfos {
