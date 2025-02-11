@@ -1,0 +1,36 @@
+/* Section réservé pour le haut de page seulement */
+
+header {
+  background-color: var(--fond-noir);
+  color: var(--texte-blanc);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* ATTENTION ICI PEUT CHANGER BEAUCOUP LA TAILLE
+  selon le root element (rem) */
+  height: 5rem;
+}
+
+header a {
+  color: var(--texte-blanc);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: var(--texte-blanc-hover);
+  text-decoration: underline;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.plusinfos {
+  display: flex;
+  align-items: center;
+}
