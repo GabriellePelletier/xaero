@@ -66,3 +66,8 @@ nav a:hover {
   display: flex;
   align-items: center;
 }
+
+.plusinfos:hover {
+  color: var(--texte-blanc-hover2);
+  text-decoration: none;
+}
