@@ -1,0 +1,72 @@
+/* Section réservé au Footer */
+/* Comment c'est organisé tout ça?
+
+le footer est général, il contient la boite de contenu et les liens de politiques en bas.
+La boite de contenu a 3 colonnes: le logo, les hyperliens 1 et les hyperliens 2.
+Les colonnes contiennent séparément leur contenu.
+
+*/
+
+footer {
+  color: var(--texte-blanc);
+  background-color: var(--fond-noir);
+}
+
+/* Contenu principal du footer */
+.boite_contenu {
+  display: flex;
+  align-items: baseline;
+
+  box-shadow: var(--effet-shadow) 0px 0px 30px 0px;
+  border-radius: var(--radius-global);
+
+  /* Vérifier cette valeur selon le padding mit sur le site web */
+  padding: 3%;
+}
+
+/* Les deux colonnes des hyperliens */
+.les_hyperliens {
+  /* espace dispo restant selon le main div */
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 2.5;
+}
+
+.lesreseaux_sociaux {
+  width: 65%;
+  height: 100%;
+  padding-top: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Les colonnes du footer */
+.divfoot {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+/* Colonne de gauche du footer */
+.divfoot_main {
+  /* espace du main div */
+  width: 30%;
+}
+
+/* Hyperlien balise a effets */
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--texte-blanc-hover);
+  text-decoration: underline;
+}
+
+footer .logo a:hover {
+  color: var(--texte-blanc-hover2);
+  text-decoration: none;
+}

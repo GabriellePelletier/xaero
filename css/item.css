@@ -9,6 +9,7 @@
   border: 1px solid var(--texte-blanc);
   color: var(--texte-blanc);
   padding: 15px 20px 15px 20px;
+  width: min-content;
 
   box-shadow: var(--fond-noir) 3px 3px 2px, var(--bleu-brillant) 5px 5px 2px;
 }

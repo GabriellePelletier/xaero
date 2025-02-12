@@ -8,21 +8,32 @@
   --fond-gris: #d2d2d2;
   --plus-pale: #efefef;
   --texte-blanc: #f1f1f1;
-  --texte-blanc-hover: #8cc9c8;
+  --texte-blanc-hover: #6dc7c5;
   --texte-blanc-hover2: #989898;
   --texte-fonce: #181818;
   --rouge-attirant: #d13232;
   --bleu-brillant: #2ce5eb;
+
+  /* Effets autres */
+  --effet-shadow: #f1f1f13d;
+  --radius-global: 5px;
 }
 
 body {
   font-family: "Poppins", serif;
+  line-height: normal;
 }
 
 .all-margins {
   padding: 0 3% 0 3%;
 }
 
+.margins {
+  padding: 3%;
+}
+
 a {
   color: var(--texte-blanc);
 }
+
+/* Section pour les sélecteurs H (H1, H2, H3...) */

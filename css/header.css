@@ -40,10 +40,10 @@ header .logo a:hover {
   margin: 0;
 }
 
-.logo:hover {
+/* .logo:hover {
   cursor: pointer;
   color: var(--texte-blanc-hover2);
-}
+} */
 
 nav {
   width: 50%;
