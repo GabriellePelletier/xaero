@@ -15,7 +15,7 @@
   --bleu-brillant: #2ce5eb;
 
   /* Effets autres */
-  --effet-shadow: #f1f1f13d;
+  --effet-shadow: #f1f1f121;
   --radius-global: 5px;
 }
 
@@ -37,3 +37,19 @@ a {
 }
 
 /* Section pour les sélecteurs H (H1, H2, H3...) */
+
+p {
+  font-size: medium;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 400;
+}

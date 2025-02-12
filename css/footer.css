@@ -57,11 +57,15 @@ footer {
 }
 
 /* Hyperlien balise a effets */
-footer a {
+footer .boite_contenu a {
   text-decoration: none;
 }
 
 footer a:hover {
+  color: var(--texte-blanc-hover2);
+}
+
+footer .boite_contenu a:hover {
   color: var(--texte-blanc-hover);
   text-decoration: underline;
 }
@@ -69,4 +73,26 @@ footer a:hover {
 footer .logo a:hover {
   color: var(--texte-blanc-hover2);
   text-decoration: none;
+}
+
+/* Section du bas du pied de page */
+
+.lesconditions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lesconditions p {
+  font-size: small;
+}
+
+.petitsliens_conditions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.petitsliens_conditions a {
+  font-size: small;
 }
