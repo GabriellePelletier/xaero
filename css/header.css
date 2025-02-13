@@ -14,7 +14,8 @@ header {
   selon le root element (rem) */
   width: 94%;
   height: 5rem;
-  opacity: 0.3;
+  opacity: 0.4;
+  user-select: none;
 
   transition-duration: 0.5s;
 }
@@ -62,12 +63,36 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Section plus d'infos */
 .plusinfos {
   display: flex;
   align-items: center;
 }
 
 .plusinfos:hover {
-  color: var(--texte-blanc-hover2);
+  color: var(--bleu-brillant);
   text-decoration: none;
+  cursor: pointer;
+}
+
+.optionsplus {
+  /* Valeur change selon la hauteur du header */
+  top: 4rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  line-height: var(--line-height);
+
+  background-color: var(--fond-noir);
+  border: var(--effet-border);
+
+  /* Peut changer pour plus de simplicité */
+  padding: 1%;
+}
+
+/* Les sélecteurs ci-dessous vont être utilisé en Javascript sur toutes les pages du site web */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.cache {
+  display: none;
 }

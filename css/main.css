@@ -17,6 +17,8 @@
   /* Effets autres */
   --effet-shadow: #f1f1f121;
   --radius-global: 5px;
+  --effet-border: 1px solid var(--texte-blanc);
+  --line-height: 2.5;
 }
 
 body {

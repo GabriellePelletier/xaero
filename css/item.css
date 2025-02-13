@@ -6,7 +6,7 @@
 
 .bouton1 {
   background: var(--fond-noir);
-  border: 1px solid var(--texte-blanc);
+  border: var(--effet-border);
   color: var(--texte-blanc);
   padding: 15px 20px 15px 20px;
   width: min-content;
