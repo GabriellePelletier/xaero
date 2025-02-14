@@ -14,13 +14,15 @@ header {
   selon le root element (rem) */
   width: 94%;
   height: 5rem;
-  opacity: 0.4;
   user-select: none;
 
   transition-duration: 0.5s;
+  filter: brightness(0.3);
+  opacity: 0.8;
 }
 
 header:hover {
+  filter: brightness(1);
   opacity: 1;
 }
 
@@ -73,6 +75,10 @@ nav a:hover {
   color: var(--bleu-brillant);
   text-decoration: none;
   cursor: pointer;
+}
+
+.plusinfos:hover svg path {
+  fill: var(--bleu-brillant);
 }
 
 .optionsplus {

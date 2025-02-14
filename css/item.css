@@ -4,6 +4,8 @@
   
 } */
 
+/* Bouton1 */
+/* ///////////////////////// */
 .bouton1 {
   background: var(--fond-noir);
   border: var(--effet-border);
@@ -17,4 +19,37 @@
 .bouton1:hover {
   background: var(--fond-noir-hover);
   cursor: pointer;
+}
+
+/* Bouton2 */
+/* ///////////////////////// */
+.bouton2 {
+  background: var(--fond-noir);
+  border: var(--effet-border);
+  color: var(--texte-blanc);
+  padding: 15px 20px 15px 20px;
+  width: max-content;
+
+  box-shadow: var(--bleu-brillant) 5px 5px 5px,
+    var(--rouge-attirant) 10px 10px 10px;
+}
+
+.bouton2:hover {
+  background: var(--fond-noir-hover);
+  cursor: pointer;
+}
+
+/* Section pour les svg - hover */
+footer svg:hover {
+  fill: var(--bleu-brillant);
+  stroke: var(--bleu-brillant);
+}
+
+/* Section pour les box-shadow */
+.shabox1 {
+  text-shadow: var(--box-shadow3);
+}
+
+.shabox2 {
+  text-shadow: var(--box-shadow4);
 }

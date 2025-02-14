@@ -16,9 +16,15 @@
 
   /* Effets autres */
   --effet-shadow: #f1f1f121;
-  --radius-global: 5px;
   --effet-border: 1px solid var(--texte-blanc);
+  --radius-global: 5px;
   --line-height: 2.5;
+
+  /* Box shadow effects */
+  --box-shadow1: #00000025 0px 4px 8px;
+  --box-shadow2: #d1233186 -15px 25px 46px;
+  --box-shadow3: #d1233186 -5px 15px 15px;
+  --box-shadow4: #2ce5eb -10px 6px 25px;
 }
 
 body {
@@ -39,6 +45,9 @@ a {
 }
 
 /* Section pour les sélecteurs H (H1, H2, H3...) */
+.mega_texte {
+  font-size: 3em;
+}
 
 p {
   font-size: medium;
