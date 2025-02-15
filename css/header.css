@@ -1,24 +1,25 @@
 /* Section réservé pour le haut de page seulement */
 
 header {
-  background-color: var(--fond-noir);
-  color: var(--texte-blanc);
+  /* ATTENTION ICI PEUT CHANGER BEAUCOUP LA TAILLE
+  selon le root element (rem) */
+  width: 90%;
+  height: 5rem;
+  padding: 0% var(--padding-moitie);
+  user-select: none;
 
+  /* positions */
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
 
-  /* ATTENTION ICI PEUT CHANGER BEAUCOUP LA TAILLE
-  selon le root element (rem) */
-  width: 94%;
-  height: 5rem;
-  user-select: none;
-
   transition-duration: 0.5s;
-  filter: brightness(0.3);
-  opacity: 0.8;
+  filter: brightness(0.4);
+  opacity: 0.9;
+  background-color: var(--fond-noir);
+  color: var(--texte-blanc);
 }
 
 header:hover {
@@ -49,7 +50,7 @@ header .logo a:hover {
 } */
 
 nav {
-  width: 50%;
+  width: var(--width-general);
   display: flex;
   justify-content: space-evenly;
   align-items: center;

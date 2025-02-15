@@ -10,6 +10,7 @@ Les colonnes contiennent séparément leur contenu.
 footer {
   color: var(--texte-blanc);
   background-color: var(--fond-noir);
+  padding: var(--padding-moitie);
 
   user-select: none;
 }
@@ -17,25 +18,27 @@ footer {
 /* Contenu principal du footer */
 .boite_contenu {
   display: flex;
-  align-items: baseline;
+  align-items: stretch;
+  justify-content: space-between;
 
   box-shadow: var(--effet-shadow) 0px 0px 30px 0px;
   border-radius: var(--radius-global);
 
   /* Vérifier cette valeur selon le padding mit sur le site web */
-  padding: 3%;
+  padding: var(--padding-moitie);
 }
 
 /* Les deux colonnes des hyperliens */
 .les_hyperliens {
   /* espace dispo restant selon le main div */
-  width: 70%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  width: var(--width-general);
   line-height: var(--line-height);
 }
 
 .lesreseaux_sociaux {
+  /* VERIFIER ICI SVP */
   width: 65%;
   height: 100%;
   padding-top: 40%;
@@ -49,14 +52,14 @@ footer {
 .divfoot {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: var(--width-general);
 }
 
 /* Colonne de gauche du footer */
-.divfoot_main {
-  /* espace du main div */
+/* espace du main div  */
+/* .divfoot_main {
   width: 30%;
-}
+} */
 
 /* Hyperlien balise a effets */
 footer .boite_contenu a {
@@ -82,17 +85,19 @@ footer .logo a:hover {
 .lesconditions {
   display: flex;
   justify-content: space-between;
+  padding: 0% var(--padding-moitie);
 }
 
 .lesconditions p {
   font-size: small;
+  width: var(--width-general);
 }
 
 .petitsliens_conditions {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 30%;
+  width: var(--width-general);
 }
 
 .petitsliens_conditions a {

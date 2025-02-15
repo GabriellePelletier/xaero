@@ -14,25 +14,87 @@
   display: flex;
   justify-content: space-between;
   color: var(--texte-blanc);
-
-  background-image: url(../dessin/fond_pale8.png);
   background-color: var(--fond-noir);
 }
 
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--texte-blanc);
+
+  background-image: url(../dessin/fond_fonc1.png);
+}
+
+/* Section pour les images (size) */
+/* ///////////////////////////////////////// */
+
+.imgboxsize {
+  height: 20rem;
+  box-shadow: var(--box-shadow1);
+  filter: grayscale(1) brightness(0.6) contrast(1.3);
+
+  /* Variable? */
+  margin: 10% 0%;
+}
+
+/* Pour section2 */
 .imgbox1 {
-  width: 40%;
+  width: var(--width-general);
   height: 30rem;
   background-image: url(../images/leschaussures/debase.png);
+  background-repeat: no-repeat;
   /* A voir si le size est judicieux ici */
   background-size: 250%;
   background-position: 50% 40%;
 }
 
-.sec1 {
-  width: 40%;
+/* Pour section3 - seulement */
+.imgbox2 {
+  background-image: url(../images/leschaussures/modele1.png);
+  background-repeat: no-repeat;
+  /* A voir si le size est judicieux ici */
+  background-size: 250%;
+  background-position: 37% 87%;
+}
+
+.imgbox3 {
+  /* width: 40%;
+  height: 30rem; */
+  background-image: url(../images/leschaussures/modele3.png);
+  background-repeat: no-repeat;
+  /* A voir si le size est judicieux ici */
+  background-size: 250%;
+  background-position: 40% 70%;
+}
+
+.imgbox4 {
+  /* width: 40%;
+  height: 30rem; */
+  background-image: url(../images/leschaussures/modele2.png);
+  background-repeat: no-repeat;
+  /* A voir si le size est judicieux ici */
+  background-size: 270%;
+  background-position: 60% 40%;
 }
 
 /* .sec3 {
   display: flex;
   flex-direction: row;
-} */
+  } */
+
+.sec1 {
+  width: var(--width-general);
+}
+
+.sec2 {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding-moitie) 0%;
+}
+
+.sec3 {
+  /* Cette section est à revérifier */
+  /* width: var(--width-general); */
+  width: 30%;
+}

@@ -25,19 +25,26 @@
   --box-shadow2: #d1233186 -15px 25px 46px;
   --box-shadow3: #d1233186 -5px 15px 15px;
   --box-shadow4: #2ce5eb -10px 6px 25px;
+  --box-shadow5: #868686 -10px 6px 35px;
+
+  /* Width et padding */
+  --padding-extra: 15%;
+  --padding-site: 10%;
+  --padding-moitie: 5%;
+  --width-general: 40%;
 }
 
 body {
   font-family: "Poppins", serif;
-  line-height: normal;
+  line-height: 1.5;
 }
 
 .all-margins {
-  padding: 0 3% 0 3%;
+  padding: 0 var(--padding-site) 0 var(--padding-site);
 }
 
 .margins {
-  padding: 3%;
+  padding: var(--padding-site) var(--padding-site);
 }
 
 a {

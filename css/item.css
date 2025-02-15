@@ -11,7 +11,7 @@
   border: var(--effet-border);
   color: var(--texte-blanc);
   padding: 15px 20px 15px 20px;
-  width: min-content;
+  width: max-content;
 
   box-shadow: var(--fond-noir) 3px 3px 2px, var(--bleu-brillant) 5px 5px 2px;
 }
@@ -52,4 +52,8 @@ footer svg:hover {
 
 .shabox2 {
   text-shadow: var(--box-shadow4);
+}
+
+.shabox3 {
+  text-shadow: var(--box-shadow5);
 }
