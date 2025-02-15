@@ -27,6 +27,15 @@
   background-image: url(../dessin/fond_fonc1.png);
 }
 
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: var(--texte-blanc);
+  background-color: var(--fond-noir);
+}
+
 /* Section pour les images (size) */
 /* ///////////////////////////////////////// */
 
@@ -79,6 +88,36 @@
   background-position: 60% 40%;
 }
 
+.imgbox5 {
+  width: var(--width-general);
+  height: 30rem;
+  background-image: url(../images/leschaussures/modele2.png);
+  background-repeat: no-repeat;
+  /* A voir si le size est judicieux ici */
+  /* background-size: 270%;
+  background-position: 60% 40%; */
+}
+
+.imgbox6 {
+  width: var(--width-general);
+  height: 30rem;
+  background-image: url(../images/leschaussures/modele2.png);
+  background-repeat: no-repeat;
+  /* A voir si le size est judicieux ici */
+  /* background-size: 270%;
+  background-position: 60% 40%; */
+}
+
+.imgbox7 {
+  width: var(--width-general);
+  height: 30rem;
+  background-image: url(../images/leschaussures/modele2.png);
+  background-repeat: no-repeat;
+  /* A voir si le size est judicieux ici */
+  /* background-size: 270%;
+  background-position: 60% 40%; */
+}
+
 /* .sec3 {
   display: flex;
   flex-direction: row;
@@ -98,4 +137,9 @@
   /* Cette section est à revérifier */
   /* width: var(--width-general); */
   width: 30%;
+}
+
+.sec4 {
+  display: flex;
+  border: 1px solid red;
 }
