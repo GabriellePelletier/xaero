@@ -1,8 +1,8 @@
 /* Ce fichier est utilisé pour les boutons, les svgs et autres éléments d'intéraction. */
 
-/* svg {
-  
-} */
+svg {
+  transition-duration: 0.5s;
+}
 
 /* Bouton1 */
 /* ///////////////////////// */
@@ -14,6 +14,7 @@
   width: max-content;
 
   box-shadow: var(--fond-noir) 3px 3px 2px, var(--bleu-brillant) 5px 5px 2px;
+  transition-duration: 0.5s;
 }
 
 .bouton1:hover {
@@ -32,6 +33,7 @@
 
   box-shadow: var(--bleu-brillant) 5px 5px 5px,
     var(--rouge-attirant) 10px 10px 10px;
+  transition-duration: 0.5s;
 }
 
 .bouton2:hover {
@@ -39,7 +41,45 @@
   cursor: pointer;
 }
 
+/* Bouton3 */
+/* ///////////////////////// */
+.bouton3 {
+  background: var(--texte-blanc);
+  border: none;
+  color: var(--fond-noir);
+  padding: 15px 20px 15px 20px;
+  width: max-content;
+
+  box-shadow: var(--box-shadow2);
+  transition-duration: 0.5s;
+}
+
+.bouton3:hover {
+  background: var(--texte-blanc-hover);
+  cursor: pointer;
+}
+
+/* Section pour le input du email */
+/* ////////////////////////////////////////// */
+input {
+  width: 50%;
+  padding: 15px 20px 15px 20px;
+
+  color: var(--texte-blanc);
+  border: var(--effet-border);
+  background: none;
+}
+
+/* Vérifier s'il y a d'autres méthodes */
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+/* ////////////////////////////////////////// */
 /* Section pour les svg - hover */
+/* ///////////////////////////////////////// */
+
 footer svg:hover {
   fill: var(--bleu-brillant);
   stroke: var(--bleu-brillant);

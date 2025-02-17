@@ -37,7 +37,7 @@ function Interactinfos() {
 }
 
 function Horsheader() {
-  console.log("click");
+  //   console.log("click");
   if (lesoptions.classList.contains("cache") == false) {
     lesoptions.classList.add("cache");
   }

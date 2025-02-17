@@ -15,11 +15,11 @@ header {
   align-items: center;
   z-index: 100;
 
-  transition-duration: 0.5s;
+  color: var(--texte-blanc);
+  background-color: var(--fond-noir);
   filter: brightness(0.4);
   opacity: 0.9;
-  background-color: var(--fond-noir);
-  color: var(--texte-blanc);
+  transition-duration: 0.5s;
 }
 
 header:hover {
@@ -59,6 +59,7 @@ nav {
 nav a {
   color: var(--texte-blanc);
   text-decoration: none;
+  transition-duration: 0.5s;
 }
 
 nav a:hover {

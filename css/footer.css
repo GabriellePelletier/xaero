@@ -64,6 +64,7 @@ footer {
 /* Hyperlien balise a effets */
 footer .boite_contenu a {
   text-decoration: none;
+  transition-duration: 0.5s;
 }
 
 footer a:hover {

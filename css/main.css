@@ -16,6 +16,7 @@
 
   /* Effets autres */
   --effet-shadow: #f1f1f121;
+  --effet-blur: blur(20px);
   --effet-border: 1px solid var(--texte-blanc);
   --radius-global: 5px;
   --line-height: 2.5;
@@ -26,6 +27,7 @@
   --box-shadow3: #d1233186 -5px 15px 15px;
   --box-shadow4: #2ce5eb -10px 6px 25px;
   --box-shadow5: #868686 -10px 6px 35px;
+  --box-shadow6: rgba(0, 0, 0, 0.3) 10px 10px 50px;
 
   /* Width et padding */
   --padding-extra: 15%;
@@ -57,7 +59,7 @@ a {
 }
 
 p {
-  font-size: medium;
+  font-size: small;
 }
 
 h2 {
