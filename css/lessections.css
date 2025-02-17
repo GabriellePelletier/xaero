@@ -35,7 +35,7 @@
   color: var(--fond-noir);
   background-image: url(../dessin/fond_pale3.png);
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   /* background-color: var(--fond-noir); */
 }
 
@@ -81,6 +81,7 @@
   /* A voir si le size est judicieux ici */
   background-size: 250%;
   background-position: 37% 87%;
+  transition-duration: 0.5s;
 }
 
 .imgbox3 {
@@ -91,6 +92,7 @@
   /* A voir si le size est judicieux ici */
   background-size: 250%;
   background-position: 40% 70%;
+  transition-duration: 0.5s;
 }
 
 .imgbox4 {
@@ -101,54 +103,75 @@
   /* A voir si le size est judicieux ici */
   background-size: 270%;
   background-position: 60% 40%;
+  transition-duration: 0.5s;
 }
 
 .imgbox5 {
   /* Cette section est à revérifier */
-  width: 25%;
+  width: 20%;
   /* width: var(--width-general); */
-  height: 40rem;
+  height: 35rem;
   margin: var(--padding-moitie) 0;
   background-image: url(../images/leschaussures/pechemure_.png);
   background-repeat: no-repeat;
   box-shadow: var(--box-shadow1);
-  filter: brightness(0.95) contrast(1.1) saturate(1);
+  filter: brightness(0.9) contrast(1.1) saturate(1);
   /* A voir si le size est judicieux ici */
   background-size: cover;
   background-position: 40% 60%;
   /* transform: rotateZ(-2deg); */
+  transition-duration: 0.5s;
 }
 
 .imgbox6 {
   /* Cette section est à revérifier */
   /* width: var(--width-general); */
-  width: 25%;
-  height: 40rem;
+  width: 20%;
+  height: 35rem;
   margin: var(--padding-moitie) 0;
   background-image: url(../images/leschaussures/orangeflambe_.png);
   background-repeat: no-repeat;
   box-shadow: var(--box-shadow1);
-  filter: brightness(0.95) contrast(1.1) saturate(1);
+  filter: brightness(0.9) contrast(1.1) saturate(1);
   /* A voir si le size est judicieux ici */
   background-size: cover;
   background-position: 40% 60%;
   /* transform: rotateZ(-2deg); */
+  transition-duration: 0.5s;
 }
 
 .imgbox7 {
   /* Cette section est à revérifier */
   /* width: var(--width-general); */
-  width: 25%;
-  height: 40rem;
+  width: 20%;
+  height: 35rem;
   margin: var(--padding-moitie) 0;
-  background-image: url(../images/leschaussures/cerise_.png);
+  background-image: url(../images/leschaussures/strawberry_.png);
   background-repeat: no-repeat;
   box-shadow: var(--box-shadow1);
-  filter: brightness(0.95) contrast(1.1) saturate(1);
+  filter: brightness(0.9) contrast(1.1) saturate(1);
   /* A voir si le size est judicieux ici */
   background-size: cover;
   background-position: 40% 60%;
   /* transform: rotateZ(-2deg); */
+  transition-duration: 0.5s;
+}
+
+.imgbox8 {
+  /* Cette section est à revérifier */
+  /* width: var(--width-general); */
+  width: 20%;
+  height: 35rem;
+  margin: var(--padding-moitie) 0;
+  background-image: url(../images/leschaussures/cerise_.png);
+  background-repeat: no-repeat;
+  box-shadow: var(--box-shadow1);
+  filter: brightness(0.9) contrast(1.1) saturate(1);
+  /* A voir si le size est judicieux ici */
+  background-size: cover;
+  background-position: 40% 60%;
+  /* transform: rotateZ(-2deg); */
+  transition-duration: 0.5s;
 }
 
 /* .sec3 {
@@ -164,7 +187,7 @@
 .sec2 {
   display: flex;
   justify-content: space-between;
-  padding: var(--padding-moitie) 0%;
+  padding: 0 0 var(--padding-moitie) 0;
 }
 
 .sec3 {
@@ -184,7 +207,7 @@
 
 .sec5 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
 }
 
