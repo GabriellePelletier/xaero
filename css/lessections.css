@@ -50,6 +50,12 @@
   background-position: 50% 20%;
 }
 
+.tempo {
+  background-image: url(../dessin/fond_fonc4.png);
+  background-color: var(--fond-noir);
+  color: var(--texte-blanc);
+}
+
 /* Section pour les images (size) */
 /* ///////////////////////////////////////// */
 
