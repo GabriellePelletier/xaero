@@ -1,2 +1,39 @@
 /* Ce document est expérimental dans le but de développer un effet de scroll pour le site web */
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.invisible {
+  /* ESSAI #1 */
+  /* --------------------------- */
+  /* position: fixed; */
+  /* animation: apparait 1s ease-in-out infinite;
+  animation-play-state: paused; */
+  /* animation-delay: calc(var(--scroll) * -1s); */
+
+  /* ESSAI #2 */
+  /* --------------------------- */
+  opacity: 0;
+  transition: all 0.7s ease-out;
+  transition-delay: 0.4s;
+}
+
+.scroll-invisible {
+  opacity: 1;
+}
+
+/* Animation de l'essai #1 */
+/* --------------------------- */
+
+/* @keyframes apparait {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+
+/* REALLY COOL EFFECT but not what I want */
+/* ////////////////////////////////////// */
+/* .background_spline {
+  position: fixed;
+} */
