@@ -55,6 +55,10 @@ footer {
   width: var(--width-general);
 }
 
+.divfoot .lesreseaux_sociaux {
+  display: none;
+}
+
 /* Colonne de gauche du footer */
 /* espace du main div  */
 /* .divfoot_main {
@@ -103,4 +107,33 @@ footer .logo a:hover {
 
 .petitsliens_conditions a {
   font-size: small;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* ------------------------------------------------------------------------------------------ */
+/* SECTION MOBILE FIRST */
+/* ------------------------------------------------------------------------------------------ */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 900px) {
+  .les_hyperliens {
+    display: none;
+  }
+
+  .divfoot .lesreseaux_sociaux {
+    display: flex;
+    padding-top: 10%;
+  }
+
+  .lesconditions {
+    flex-direction: column;
+    padding-top: var(--padding-moitie);
+  }
+
+  .petitsliens_conditions {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    line-height: 2.5;
+  }
 }

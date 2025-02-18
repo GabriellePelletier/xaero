@@ -236,3 +236,91 @@
   transform: scale(1.12);
   filter: saturate(1.5);
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* ------------------------------------------------------------------------------------------ */
+/* SECTION MOBILE FIRST */
+/* ------------------------------------------------------------------------------------------ */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 900px) {
+  .section1 {
+    flex-direction: column;
+    background-position: top;
+    text-align: center;
+  }
+
+  .section2 {
+    flex-direction: column;
+  }
+
+  .section3 {
+    background-position: center;
+  }
+
+  .sec1 {
+    width: 100%;
+  }
+
+  .sec2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec3 {
+    width: 90%;
+  }
+
+  .sec4 {
+    width: 90%;
+    /* padding: var(--padding-moitie); */
+  }
+
+  .sec5 {
+    flex-wrap: wrap;
+  }
+
+  .imgboxsize {
+    height: 10rem;
+    width: 100%;
+  }
+
+  .imgbox1 {
+    width: 90%;
+    height: 20rem;
+    margin-top: var(--padding-site);
+    background-position: 50%;
+  }
+
+  .imgbox5 {
+    width: var(--width-general);
+    height: 10rem;
+    margin: var(--padding-moitie) 0;
+    background-size: 250%;
+  }
+
+  .imgbox6 {
+    width: var(--width-general);
+    height: 10rem;
+    margin: var(--padding-moitie) 0;
+    background-size: 250%;
+  }
+
+  .imgbox7 {
+    width: var(--width-general);
+    height: 10rem;
+    margin: var(--padding-moitie) 0;
+    background-size: 250%;
+  }
+
+  .imgbox8 {
+    width: var(--width-general);
+    height: 10rem;
+    margin: var(--padding-moitie) 0;
+    background-size: 250%;
+  }
+
+  .blur-bloc {
+    height: 75%;
+  }
+}

@@ -22,6 +22,10 @@ svg {
   cursor: pointer;
 }
 
+footer .bouton1 {
+  display: none;
+}
+
 /* Bouton2 */
 /* ///////////////////////// */
 .bouton2 {
@@ -57,6 +61,10 @@ svg {
 .bouton3:hover {
   background: var(--texte-blanc-hover);
   cursor: pointer;
+}
+
+.bouton4 {
+  display: none;
 }
 
 /* Section pour le input du email */
@@ -96,4 +104,28 @@ footer svg:hover {
 
 .shabox3 {
   text-shadow: var(--box-shadow5);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* ------------------------------------------------------------------------------------------ */
+/* SECTION MOBILE FIRST */
+/* ------------------------------------------------------------------------------------------ */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 900px) {
+  .bouton2 {
+    margin-top: var(--padding-moitie);
+  }
+
+  .bouton4 {
+    display: block;
+    background: none;
+    border: none;
+    /* padding: 15px 20px 15px 20px; */
+    width: max-content;
+  }
+
+  footer .bouton1 {
+    display: block;
+  }
 }
