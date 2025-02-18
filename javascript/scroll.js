@@ -1,1 +1,13 @@
-// Script de scroll sur la page (animation simple d'intéraction)
+// Script utilisé pour les animations scroll
+// ////////////////////////////////////////////
+
+window.addEventListener(
+  "scroll",
+  () => {
+    document.body.style.setProperty(
+      "--scroll",
+      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+    );
+  },
+  false
+);

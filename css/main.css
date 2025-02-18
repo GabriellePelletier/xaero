@@ -36,6 +36,10 @@
   --width-general: 40%;
 }
 
+html {
+  background-color: black;
+}
+
 body {
   font-family: "Poppins", serif;
   line-height: 1.5;
