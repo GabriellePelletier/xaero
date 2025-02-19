@@ -67,6 +67,10 @@ footer .bouton1 {
   display: none;
 }
 
+.bouton5 {
+  display: none;
+}
+
 /* Section pour le input du email */
 /* ////////////////////////////////////////// */
 input {
@@ -106,6 +110,14 @@ footer svg:hover {
   text-shadow: var(--box-shadow5);
 }
 
+.texte_special {
+  background: linear-gradient(var(--rouge-attirant), var(--bleu-brillant));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: saturate(2.5);
+}
+
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 /* ------------------------------------------------------------------------------------------ */
 /* SECTION MOBILE FIRST */
@@ -122,6 +134,13 @@ footer svg:hover {
     background: none;
     border: none;
     /* padding: 15px 20px 15px 20px; */
+    width: max-content;
+  }
+
+  .bouton5 {
+    display: none;
+    background: none;
+    border: none;
     width: max-content;
   }
 

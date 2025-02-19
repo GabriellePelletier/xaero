@@ -42,3 +42,6 @@ function Horsheader() {
     lesoptions.classList.add("cache");
   }
 }
+
+// Cette partie est appliqué pour le menu sur mobile
+// /////////////////////////////////////////////////

@@ -98,6 +98,29 @@ nav a:hover {
   padding: 1%;
 }
 
+.menu_mobile {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 5rem;
+  left: 0;
+  z-index: 50;
+
+  background-color: var(--fond-noir);
+}
+
+.liens_menu_mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 3.5;
+}
+
+.liens_menu_mobile a {
+  text-decoration: none;
+}
+
 /* Les sélecteurs ci-dessous vont être utilisé en Javascript sur toutes les pages du site web */
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 
