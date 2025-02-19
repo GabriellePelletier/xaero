@@ -268,7 +268,7 @@
 
   .sec1 {
     width: 100%;
-    margin-top: var(--padding-site);
+    margin-top: 5rem;
   }
 
   .sec2 {
@@ -292,7 +292,7 @@
 
   .tempo {
     text-align: center;
-    padding-top: var(--padding-extra);
+    padding-top: 8rem;
     background-position: left;
   }
 
@@ -337,7 +337,7 @@
   }
 
   .blur-bloc {
-    height: 90%;
+    height: 100%;
   }
 
   .spline {
