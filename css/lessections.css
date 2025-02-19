@@ -290,6 +290,10 @@
     flex-wrap: wrap;
   }
 
+  .tempo {
+    text-align: center;
+  }
+
   .imgboxsize {
     height: 10rem;
     width: 100%;
