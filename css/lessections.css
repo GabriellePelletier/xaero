@@ -292,6 +292,8 @@
 
   .tempo {
     text-align: center;
+    padding-top: var(--padding-extra);
+    background-position: left;
   }
 
   .imgboxsize {
