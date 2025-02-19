@@ -116,6 +116,19 @@ footer .logo a:hover {
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media screen and (max-width: 900px) {
+  footer {
+    text-align: center;
+  }
+
+  .boite_contenu {
+    justify-content: center;
+  }
+
+  .divfoot {
+    width: 90%;
+    align-items: center;
+  }
+
   .les_hyperliens {
     display: none;
   }
@@ -129,12 +142,13 @@ footer .logo a:hover {
   .lesconditions {
     flex-direction: column;
     padding-top: var(--padding-moitie);
+    align-items: center;
   }
 
   .petitsliens_conditions {
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
     line-height: 2.5;
   }
 }
