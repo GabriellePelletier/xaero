@@ -123,6 +123,7 @@ footer .logo a:hover {
   .divfoot .lesreseaux_sociaux {
     display: flex;
     padding-top: 20%;
+    width: 90%;
   }
 
   .lesconditions {
