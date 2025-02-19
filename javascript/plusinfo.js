@@ -45,3 +45,32 @@ function Horsheader() {
 
 // Cette partie est appliqué pour le menu sur mobile
 // /////////////////////////////////////////////////
+
+// Aller chercher les deux parties touchés par l'intéraction
+let boutonmenu = document.querySelector(".bouton4");
+// // console.log(plusinfos);
+let boutonx = document.querySelector(".bouton5");
+// // console.log(lesoptions);
+let menumobile = document.querySelector(".menu_mobile");
+
+// Ajout du eventListener
+boutonmenu.addEventListener("click", Ouvrirmenu);
+boutonx.addEventListener("click", Fermermenu);
+
+function Ouvrirmenu() {
+  // if (menumobile.classList.contains("cache") == false) {
+  //   menumobile.classList.add("cache");
+  // } else if (lesoptions.classList.contains("cache") == true) {
+  //   lesoptions.classList.remove("cache");
+  // }
+
+  menumobile.classList.remove("cache");
+  boutonmenu.style.display = "none";
+  boutonx.style.display = "block";
+}
+
+function Fermermenu() {
+  menumobile.classList.add("cache");
+  boutonmenu.style.display = "block";
+  boutonx.style.display = "none";
+}
