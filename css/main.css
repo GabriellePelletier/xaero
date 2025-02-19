@@ -59,23 +59,30 @@ a {
 
 /* Section pour les sélecteurs H (H1, H2, H3...) */
 .mega_texte {
-  font-size: 3em;
+  font-size: clamp(2.25rem, 1.926rem + 1.728vi, 3.75rem);
 }
 
 p {
-  font-size: small;
+  font-size: clamp(0.875rem, 0.852rem + 0.123vi, 1rem);
+}
+
+h1 {
+  font-size: clamp(2rem, 1.657rem + 0.494vi, 2.25rem);
 }
 
 h2 {
   font-weight: 600;
+  font-size: clamp(1rem, 1.204rem + 0.247vi, 1.5rem);
 }
 
 h3 {
   font-weight: 500;
+  font-size: clamp(1rem, 0.954rem + 0.247vi, 1.25rem);
 }
 
 h4 {
   font-weight: 400;
+  font-size: clamp(1.05rem, 0.681rem + 0.37vi, 1.125rem);
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////// */

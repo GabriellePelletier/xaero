@@ -1,2 +1,12 @@
 /* Les sections ci-dessous sont utilisé pour la page de présentation seulement */
 /* /////////////////////////////////////////////////////////////////////////// */
+
+.all-slides {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--fond-noir);
+  color: var(--texte-blanc);
+}
+
+.slide1 {
+}
