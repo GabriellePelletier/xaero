@@ -256,6 +256,7 @@
 
   .section2 {
     flex-direction: column;
+    text-align: center;
   }
 
   .section3 {
@@ -294,6 +295,10 @@
     text-align: center;
     padding-top: 8rem;
     background-position: left;
+  }
+
+  .tempo .mega_texte {
+    font-size: clamp(2rem, 1.657rem + 0.494vi, 2.25rem);
   }
 
   .imgboxsize {
