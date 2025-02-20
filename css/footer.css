@@ -55,7 +55,7 @@ footer {
   width: var(--width-general);
 }
 
-.divfoot .lesreseaux_sociaux {
+.divfoot_main .lesreseaux_sociaux {
   display: none;
 }
 

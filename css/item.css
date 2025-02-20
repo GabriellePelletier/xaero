@@ -125,6 +125,10 @@ footer svg:hover {
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media screen and (max-width: 900px) {
+  header .bouton1 {
+    display: none;
+  }
+
   .bouton2 {
     margin-top: var(--padding-moitie);
   }
