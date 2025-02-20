@@ -262,7 +262,9 @@
 
   .section3 {
     background-image: url(../dessin/fond_fonc1_mobile.png);
+    background-size: 300%;
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   .section4 {
