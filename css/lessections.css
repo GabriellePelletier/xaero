@@ -252,6 +252,7 @@
     flex-direction: column;
     background-position: top;
     text-align: center;
+    background-image: url(../dessin/fond_fonc5_mobile.png);
   }
 
   .section2 {
@@ -260,11 +261,17 @@
   }
 
   .section3 {
+    background-image: url(../dessin/fond_fonc1_mobile.png);
     background-position: center;
   }
 
   .section4 {
+    background-image: url(../dessin/fond_pale3_mobile.png);
     text-align: center;
+  }
+
+  .section5 {
+    background-image: url(../images/soleilcouc_mobile.png);
   }
 
   .sec1 {
@@ -292,6 +299,7 @@
   }
 
   .tempo {
+    background-image: url(../dessin/fond_fonc4_mobile.png);
     text-align: center;
     padding-top: 8rem;
     background-position: left;
@@ -307,13 +315,27 @@
   }
 
   .imgbox1 {
+    background-image: url(../images/leschaussures/debase2_mobile.png);
     width: 90%;
     height: 20rem;
     margin-top: var(--padding-site);
     background-position: 50%;
   }
 
+  .imgbox2 {
+    background-image: url(../images/leschaussures/modele1_mobile.png);
+  }
+
+  .imgbox3 {
+    background-image: url(../images/leschaussures/modele3_mobile.png);
+  }
+
+  .imgbox4 {
+    background-image: url(../images/leschaussures/modele2_mobile.png);
+  }
+
   .imgbox5 {
+    background-image: url(../images/leschaussures/pechemure_mobile.png);
     width: var(--width-general);
     height: 10rem;
     margin: var(--padding-moitie) 0;
@@ -321,6 +343,7 @@
   }
 
   .imgbox6 {
+    background-image: url(../images/leschaussures/orangeflambe_mobile.png);
     width: var(--width-general);
     height: 10rem;
     margin: var(--padding-moitie) 0;
@@ -328,6 +351,7 @@
   }
 
   .imgbox7 {
+    background-image: url(../images/leschaussures/strawberry_mobile.png);
     width: var(--width-general);
     height: 10rem;
     margin: var(--padding-moitie) 0;
@@ -335,6 +359,7 @@
   }
 
   .imgbox8 {
+    background-image: url(../images/leschaussures/cerise_mobile.png);
     width: var(--width-general);
     height: 10rem;
     margin: var(--padding-moitie) 0;
