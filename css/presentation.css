@@ -1,6 +1,7 @@
 /* Les sections ci-dessous sont utilisé pour la page de présentation seulement */
 /* /////////////////////////////////////////////////////////////////////////// */
 
+/* Sélecteur pour le texte au niveau de la présentation */
 .webkit_texte {
   background: var(--texte-blanc);
   background-clip: text;
@@ -12,22 +13,68 @@
   font-size: clamp(4.375rem, 2.5rem + 6vi, 6rem);
 }
 
-.all-slides {
-  height: 90vh;
-  width: 100%;
+/* Sélecteur flex pour la présentation */
+.flexnormal {
+  display: flex;
+}
+
+.flexcolonne {
+  display: flex;
+  flex-direction: column;
+}
+
+.tempo2 {
+  background-image: url(../dessin/fond_fonc5.png);
   background-color: var(--fond-noir);
   color: var(--texte-blanc);
 }
 
-.backg {
-  width: 100%;
+/* Tout les slides */
+/* .all-slides {
   height: 100%;
+  width: 100%;
+  color: var(--texte-blanc);
+}
+
+.backg {
+  height: 90vh;
+  width: 100%;
   background-size: cover;
 }
 
-.p1 {
+.slides {
+  height: max-content;
+} */
+
+/* Les backgrounds ou autres sélecteurs */
+/* .p1 {
   background-image: url(../dessin/fond_fonc5.png);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px inset,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px inset,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px inset,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px inset,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px inset;
 }
 
-/* .slide1 {
+.p2 {
+  background-image: url(../dessin/fond_fonc1.png);
+}
+
+.slide2 {
+  backdrop-filter: contrast(1.2) saturate(1.5) blur(10px);
+}
+
+.p3 {
+  background-image: url(../images/eclair.png);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px inset,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px inset,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px inset,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px inset,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px inset;
+
+  background-size: 130%;
+}
+
+.slide3 {
+  backdrop-filter: blur(3px);
 } */
